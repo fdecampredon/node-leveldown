@@ -35,9 +35,9 @@
   "devDependencies": {
     "tap": "~0.4.8",
     "rimraf": "~2.2.6",
+    "abstract-leveldown": "git://github.com/rvagg/abstract-leveldown#julian-empty-values",
     "mkfiletree": "~0.0.1",
     "readfiletree": "~0.0.1",
-    "abstract-leveldown": "~0.11.1",
     "monotonic-timestamp": "~0.0.8",
     "du": "~0.1.0",
     "node-gyp": "~0.13.0"
