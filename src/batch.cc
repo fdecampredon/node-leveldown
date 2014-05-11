@@ -91,7 +91,6 @@ NAN_METHOD(Batch::Put) {
   v8::Handle<v8::Function> callback; // purely for the error macros
 
   LD_CB_ERR_IF_NULL_OR_UNDEFINED(args[0], key)
-  LD_CB_ERR_IF_NULL_OR_UNDEFINED(args[1], value)
 
   v8::Local<v8::Value> keyBuffer = args[0];
   v8::Local<v8::Value> valueBuffer = args[1];
