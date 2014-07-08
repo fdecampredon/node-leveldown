@@ -127,7 +127,8 @@
                 'OS_MACOSX=1'
             ]
           , 'xcode_settings': {
-                'WARNING_CFLAGS': [
+                'GCC_ENABLE_CPP_RTTI': 'YES'
+              , 'WARNING_CFLAGS': [
                     '-Wno-sign-compare'
                   , '-Wno-unused-variable'
                   , '-Wno-unused-function'

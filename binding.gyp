@@ -41,7 +41,8 @@
           }]
         , ['OS == "mac"', {
               'xcode_settings': {
-                  'WARNING_CFLAGS': [
+                  'GCC_ENABLE_CPP_RTTI': 'YES'
+                , 'WARNING_CFLAGS': [
                      '-Wno-ignored-qualifiers'
                   ]
                 , 'OTHER_CPLUSPLUSFLAGS': [
